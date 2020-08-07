@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Memorable Birthday Party and Event Planners-Banglore|BirthdayBasherTroop</title>
+  <link rel="icon" href="favicons/favicon.ico" type="image/x-icon">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168814181-3"></script>
+<script src="app.js"></script>
+</head>
 <meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+<style>
+.w3-tangerine {
+  font-family: "Tangerine", serif;
+  font-size:32px;
+  color:gold;
+}
+</style>
 <body>
 
 <!-- Navigation -->
 <nav class="w3-bar w3-black">
-  <a href="#home" class="w3-button w3-bar-item">About Us</a>
-  <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+  <div class="w3-bar-item w3-tangerine font">Birthday basher Troop</div>  
+  <a href="#contact" class="w3-button w3-right w3-bar-item">Gallery</a>
+  <a href="#contact" class="w3-button w3-right w3-bar-item">Packages</a>
 </nav>
 
 <!-- Slide Show -->
 <section>
-  <img class="mySlides" src="Demo.jpg"
-  style="width:100%; height:400px;">
-  <img class="mySlides" src="Demo_1.jpg"
-  style="width:100%; height:400px;">
+  <img class="mySlides" src="Party_decoration.jpeg"
+  style="width:100%; height:550px;">
+  <img class="mySlides" src="Party_table.jpeg"
+  style="width:100%; height:550px;">
+  <img class="mySlides" src="Party_room_decoration.jpeg"
+  style="width:100%; height:550px;">
 </section>
 
 <!-- Band Description -->
@@ -29,47 +48,38 @@
 
 <!-- Band Members -->
 <section class="w3-row-padding w3-center w3-light-grey">
+  <h2>Packages</h2>
   <article class="w3-third">
-    <p>Simple Simon</p>
-    <img src="SimpleSimon.png" alt="Random Name" style="width:100%">
+    <p><h3>Simple Simon</h3> </article>
+  <article class="w3-third">
+    <p><h3>Silver Bells</h3> </article>
   </article>
   <article class="w3-third">
-    <p>Silver bells</p>
-    <img src="SilverBells.png" alt="Random Name" style="width:100%">
-  </article>
-  <article class="w3-third">
-    <p>Golden Bells</p>
-    <img src="GoldenBells.png" alt="Random Name" style="width:100%">
+    <p><h3>Golden Bells</h3> </article>
   </article>
 </section>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge">
-  <a href="#"><i class="fa fa-facebook-official"></i></a>
-  <a href="#"><i class="fa fa-pinterest-p"></i></a>
-  <a href="#"><i class="fa fa-twitter"></i></a>
-  <a href="#"><i class="fa fa-flickr"></i></a>
-  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/birthdaybashertroop/"><i class="fa fa-instagram"></i></a>
+  <a href="tel:+918884214282"><i class="fa fa-phone"></i></a>
+  <br> <h6>All rights reserved</h6>
 </footer>
-
-<script>
-// Automatic Slideshow - change image every 3 seconds
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}
-  x[myIndex-1].style.display = "block";
-  setTimeout(carousel, 3000);
-}
-</script>
-
 </body>
+<script>// Automatic Slideshow - change image every 3 seconds
+  var myIndex = 0;
+  carousel();
+  
+  function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+  }</script>
 </html>
 
